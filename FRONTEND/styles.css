@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #fc466b, #3f5efb);;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .product {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #fff;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 410%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-content img {
+   width: 350px;
+   height: 50%;
+   align-self: center;
+  }
+
+  .addtocart{
+    
+    background-color: dimgrey;
+    width: 100px;
+    height: 40px;
+    color:black;
+    margin-left: 100px;
+  }
+  
+  .addtocart:hover{
+    cursor: pointer;
+    border-radius: 25px;
+    color: #fff;
+    background-color: red;
+    border-color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
+  }
+
+  .buynow{
+    
+    background-color: dimgrey;
+    width: 100px;
+    height: 40px;
+    color:black;
+    margin-left: 100px;
+  }
+  
+  .buynow:hover{
+    cursor: pointer;
+    border-radius: 25px;
+    color: #fff;
+    background-color:green;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
+  }
+  .buttons{
+    display: flex;
+  }
+
+#title{
+  text-align: center;
+  
+  color: #fff;
+}
+
+.footer{
+  text-align-last: right;
+  margin-right: 30px;
+  color: #fff;
+}
+  
+ /* @media screen{
+  
+ }  */
